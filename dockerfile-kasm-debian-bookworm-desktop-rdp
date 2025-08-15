@@ -16,11 +16,11 @@ ENV DEBIAN_FRONTEND=noninteractive \
     INST_DIR=$STARTUPDIR/install \
     INST_SCRIPTS="/ubuntu/install/tools/install_tools_deluxe.sh \
                   /ubuntu/install/misc/install_tools.sh \
+                  /ubuntu/install/chrome/install_chrome.sh \
                   /ubuntu/install/firefox/install_firefox.sh \
                   /ubuntu/install/vs_code/install_vs_code.sh \
                   /ubuntu/install/remmina/install_remmina.sh \
                   /ubuntu/install/gimp/install_gimp.sh \
-                  /ubuntu/install/gamepad_utils/install_gamepad_utils.sh \
                   /ubuntu/install/cleanup/cleanup.sh"
 
 # Copy install scripts
